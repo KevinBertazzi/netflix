@@ -2,10 +2,24 @@
     display: flex;
 }
 
-body{background: black;}
+html{
+    font-family: 'roboto';
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fontes/Roboto/roboto.ttf);
+}
+
+body{background: black;
+color: white;}
 
 .container{
     width: 80vw;
+}
+
+.flex{
+    display: flex;
 }
 
 section{
@@ -17,6 +31,8 @@ section{
     gap: 4vw;
 }
 
+
+
 #menu-1{
     
     width: 80%;
@@ -25,7 +41,6 @@ section{
 }
 
 #menu-2{
-   
     width: 20%;
     justify-content: center;
     align-items: center;
@@ -36,8 +51,51 @@ section{
 
 
 #Banner{
-    background: url(../img/imagem_principal.jpeg);
+    background: url(../img/imagem_principal.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
+    width: 100vw;
+    height: 90vh;
+}
+
+#filme{
+    width: 80%;
+}
+
+#texto{
+    color: white;
+}
+
+#informacoes-banner{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#info-esquerdo{
+    width: 50%;
+    padding-top: 30vh;
+}
+
+
+#icone{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap:2vw;
+}
+
+#menu-1 ul{
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 45, 45);
 }
