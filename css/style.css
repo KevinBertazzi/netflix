@@ -35,7 +35,7 @@ section{
 
 #menu-1{
     
-    width: 80%;
+    width: 90%;
     justify-content: left;
     color: white;
 }
@@ -54,13 +54,14 @@ section{
     background: url(../img/imagem_principal.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
     width: 100vw;
     height: 90vh;
+    /* opacity: 0.7; */
 }
 
 #filme{
-    width: 80%;
+    width: 120%;;
+    
 }
 
 #texto{
@@ -70,12 +71,14 @@ section{
 #informacoes-banner{
     width: 80vw;
     margin: 0 auto;
+
 }
 
 #info-esquerdo{
     width: 50%;
     padding-top: 30vh;
 }
+
 
 
 #icone{
@@ -91,6 +94,10 @@ section{
     align-items: center;
 }
 
+#menu-1{
+      justify-content: start;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -99,3 +106,64 @@ a{
 a:hover{
     color: rgb(255, 45, 45);
 }
+
+
+.direito{
+    justify-content: end;
+}
+
+#menu-2{
+    justify-content: end;
+}
+
+#assistir{
+    background: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+
+#mais{
+   color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    background: rgba(128, 128, 128, 0.404);
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#lista1{
+    gap: 10px;
+}
+
+#lista1 img{
+    width: 18vw;
+    height: 25vh;
+}
+
+#redesl{
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+}
+
+.none{
+    list-style: none;
+}
+
+.none li{
+    padding-bottom: 20px;
+}
+
+#rodape{
+    gap: 5vw;
+}
+
+
+
